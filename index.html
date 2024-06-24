@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="wrapper">
+            <div class="student">
+                <label>UserName</label><br>
+                <input type="text" name="userName" class="disign" placeholder="Ім'я"><br>
+                <label>SurName</label><br>
+                <input type="text" name="surName" class="disign" placeholder="Прізвище"><br>
+                <label>LastName</label><br>
+                <input type="text" name="lastName" class="disign" placeholder="По батькові"><br>
+                <label>Adress</label><br>
+                <input type="text" name="adress" class="disign" placeholder="Адрес"><br>
+                <label>Gender</label><br>
+                <select class="gender">
+                    <option value="" disabled selected>Оберіть стать</option>
+                    <option>Чоловіча</option>
+                    <option>Жіноча</option>
+                </select><br><br>
+                <label>User Age</label><br>
+                <input type="date" name="age" class="disign" placeholder="Вік"><br><br>
+                </div>
+        </div>
+        <div class="wrapper_msg">
+             <button type="submit" class="sbm">PUSH!!!</button>
+                <button type="button" class="sortname">sort name</button>
+                <button type="button" class="sortsurname">sort surname</button>
+                <button type="button" class="sortgender">sort gender</button>
+            <div class="list_stud"></div>
+            <div class="errDiv"></div>
+           
+        </div>
+    </div>
+
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
